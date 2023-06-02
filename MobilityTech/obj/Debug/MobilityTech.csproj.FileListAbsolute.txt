@@ -10,3 +10,16 @@ C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.ex
 C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.pdb
 C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.frmLogin.resources
 C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.frmEditarDados.resources
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\bin\Debug\MobilityTech.exe.config
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\bin\Debug\MobilityTech.exe
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\bin\Debug\MobilityTech.pdb
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.csproj.AssemblyReference.cache
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.Form1.resources
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.frmEditarDados.resources
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.frmLogin.resources
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.Properties.Resources.resources
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.csproj.GenerateResource.cache
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.csproj.CoreCompileInputs.cache
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.exe
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.pdb
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.frmPerfil.resources

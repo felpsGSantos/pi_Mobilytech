@@ -37,8 +37,8 @@ namespace MobilityTech
             this.lblSenha = new System.Windows.Forms.Label();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.lblNpossui = new System.Windows.Forms.Label();
-            this.lblCadastro = new System.Windows.Forms.Label();
-            this.lblEsqueceuSenha = new System.Windows.Forms.Label();
+            this.lklEsqueceuSenha = new System.Windows.Forms.LinkLabel();
+            this.lklCadastro = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,14 +65,14 @@ namespace MobilityTech
             this.txtUsuario.Location = new System.Drawing.Point(441, 174);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(194, 20);
-            this.txtUsuario.TabIndex = 2;
+            this.txtUsuario.TabIndex = 0;
             // 
             // txtSenha
             // 
             this.txtSenha.Location = new System.Drawing.Point(441, 217);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(194, 20);
-            this.txtSenha.TabIndex = 3;
+            this.txtSenha.TabIndex = 1;
             // 
             // lblUsuario
             // 
@@ -102,7 +102,7 @@ namespace MobilityTech
             this.btnEntrar.Location = new System.Drawing.Point(441, 275);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(194, 30);
-            this.btnEntrar.TabIndex = 6;
+            this.btnEntrar.TabIndex = 3;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = false;
             // 
@@ -115,25 +115,27 @@ namespace MobilityTech
             this.lblNpossui.TabIndex = 7;
             this.lblNpossui.Text = "Ainda não tem conta?";
             // 
-            // lblCadastro
+            // lklEsqueceuSenha
             // 
-            this.lblCadastro.AutoSize = true;
-            this.lblCadastro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblCadastro.Location = new System.Drawing.Point(564, 328);
-            this.lblCadastro.Name = "lblCadastro";
-            this.lblCadastro.Size = new System.Drawing.Size(63, 13);
-            this.lblCadastro.TabIndex = 8;
-            this.lblCadastro.Text = "Cadastre-se";
+            this.lklEsqueceuSenha.AutoSize = true;
+            this.lklEsqueceuSenha.LinkColor = System.Drawing.Color.Black;
+            this.lklEsqueceuSenha.Location = new System.Drawing.Point(533, 240);
+            this.lklEsqueceuSenha.Name = "lklEsqueceuSenha";
+            this.lklEsqueceuSenha.Size = new System.Drawing.Size(102, 13);
+            this.lklEsqueceuSenha.TabIndex = 2;
+            this.lklEsqueceuSenha.TabStop = true;
+            this.lklEsqueceuSenha.Text = "Esqueceu a senha?";
             // 
-            // lblEsqueceuSenha
+            // lklCadastro
             // 
-            this.lblEsqueceuSenha.AutoSize = true;
-            this.lblEsqueceuSenha.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblEsqueceuSenha.Location = new System.Drawing.Point(533, 240);
-            this.lblEsqueceuSenha.Name = "lblEsqueceuSenha";
-            this.lblEsqueceuSenha.Size = new System.Drawing.Size(102, 13);
-            this.lblEsqueceuSenha.TabIndex = 9;
-            this.lblEsqueceuSenha.Text = "Esqueceu a senha?";
+            this.lklCadastro.AutoSize = true;
+            this.lklCadastro.LinkColor = System.Drawing.Color.Black;
+            this.lklCadastro.Location = new System.Drawing.Point(572, 328);
+            this.lklCadastro.Name = "lklCadastro";
+            this.lklCadastro.Size = new System.Drawing.Size(63, 13);
+            this.lklCadastro.TabIndex = 4;
+            this.lklCadastro.TabStop = true;
+            this.lklCadastro.Text = "Cadastre-se";
             // 
             // frmLogin
             // 
@@ -141,8 +143,8 @@ namespace MobilityTech
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.lblEsqueceuSenha);
-            this.Controls.Add(this.lblCadastro);
+            this.Controls.Add(this.lklCadastro);
+            this.Controls.Add(this.lklEsqueceuSenha);
             this.Controls.Add(this.lblNpossui);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.lblSenha);
@@ -170,7 +172,7 @@ namespace MobilityTech
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Label lblNpossui;
-        private System.Windows.Forms.Label lblCadastro;
-        private System.Windows.Forms.Label lblEsqueceuSenha;
+        private System.Windows.Forms.LinkLabel lklEsqueceuSenha;
+        private System.Windows.Forms.LinkLabel lklCadastro;
     }
 }

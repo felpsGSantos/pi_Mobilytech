@@ -16,7 +16,7 @@ namespace MobilityTech
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEditarDados());
+            Application.Run(new frmPerfil());
         }
     }
 }

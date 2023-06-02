@@ -29,246 +29,249 @@ namespace MobilityTech
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEditarDados));
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.lblCidade = new System.Windows.Forms.Label();
+            this.txtCidade = new System.Windows.Forms.TextBox();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.lblBairro = new System.Windows.Forms.Label();
+            this.lblCEP = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.lblEndereco = new System.Windows.Forms.Label();
+            this.lblSexo = new System.Windows.Forms.Label();
+            this.lblTelefone = new System.Windows.Forms.Label();
+            this.lblCPF = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtSexo = new System.Windows.Forms.TextBox();
+            this.txtEndereco = new System.Windows.Forms.TextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.lblCadastro = new System.Windows.Forms.Label();
+            this.mkdCPF = new System.Windows.Forms.MaskedTextBox();
+            this.mkdTelefone = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCadastrar
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkOrange;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(507, 395);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 32);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCadastrar.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Location = new System.Drawing.Point(507, 395);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(81, 32);
+            this.btnCadastrar.TabIndex = 11;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnEditar
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(593, 395);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(81, 32);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Editar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnEditar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.Location = new System.Drawing.Point(593, 395);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(81, 32);
+            this.btnEditar.TabIndex = 12;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
             // 
-            // label11
+            // lblEstado
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(417, 307);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(45, 15);
-            this.label11.TabIndex = 70;
-            this.label11.Text = "Estado";
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(417, 307);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(45, 15);
+            this.lblEstado.TabIndex = 70;
+            this.lblEstado.Text = "Estado";
             // 
-            // textBox11
+            // txtEstado
             // 
-            this.textBox11.Location = new System.Drawing.Point(434, 334);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(152, 20);
-            this.textBox11.TabIndex = 69;
+            this.txtEstado.Location = new System.Drawing.Point(434, 334);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(152, 20);
+            this.txtEstado.TabIndex = 10;
             // 
-            // label10
+            // lblCidade
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(247, 307);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(46, 15);
-            this.label10.TabIndex = 68;
-            this.label10.Text = "Cidade";
+            this.lblCidade.AutoSize = true;
+            this.lblCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCidade.Location = new System.Drawing.Point(247, 307);
+            this.lblCidade.Name = "lblCidade";
+            this.lblCidade.Size = new System.Drawing.Size(46, 15);
+            this.lblCidade.TabIndex = 68;
+            this.lblCidade.Text = "Cidade";
             // 
-            // textBox9
+            // txtCidade
             // 
-            this.textBox9.Location = new System.Drawing.Point(255, 334);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(152, 20);
-            this.textBox9.TabIndex = 67;
+            this.txtCidade.Location = new System.Drawing.Point(255, 334);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(152, 20);
+            this.txtCidade.TabIndex = 9;
             // 
-            // textBox8
+            // txtBairro
             // 
-            this.textBox8.Location = new System.Drawing.Point(57, 334);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(152, 20);
-            this.textBox8.TabIndex = 66;
+            this.txtBairro.Location = new System.Drawing.Point(57, 334);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(152, 20);
+            this.txtBairro.TabIndex = 8;
             // 
-            // label9
+            // lblBairro
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(42, 307);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(40, 15);
-            this.label9.TabIndex = 65;
-            this.label9.Text = "Bairro";
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBairro.Location = new System.Drawing.Point(42, 307);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(40, 15);
+            this.lblBairro.TabIndex = 65;
+            this.lblBairro.Text = "Bairro";
             // 
-            // label8
+            // lblCEP
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(398, 245);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(31, 15);
-            this.label8.TabIndex = 64;
-            this.label8.Text = "CEP";
+            this.lblCEP.AutoSize = true;
+            this.lblCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCEP.Location = new System.Drawing.Point(398, 245);
+            this.lblCEP.Name = "lblCEP";
+            this.lblCEP.Size = new System.Drawing.Size(31, 15);
+            this.lblCEP.TabIndex = 64;
+            this.lblCEP.Text = "CEP";
             // 
-            // label7
+            // lblNumero
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(204, 245);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 15);
-            this.label7.TabIndex = 63;
-            this.label7.Text = "Número";
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.Location = new System.Drawing.Point(204, 245);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(52, 15);
+            this.lblNumero.TabIndex = 63;
+            this.lblNumero.Text = "Número";
             // 
-            // label6
+            // lblEndereco
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 245);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 15);
-            this.label6.TabIndex = 62;
-            this.label6.Text = "Endereço";
+            this.lblEndereco.AutoSize = true;
+            this.lblEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEndereco.Location = new System.Drawing.Point(12, 245);
+            this.lblEndereco.Name = "lblEndereco";
+            this.lblEndereco.Size = new System.Drawing.Size(60, 15);
+            this.lblEndereco.TabIndex = 62;
+            this.lblEndereco.Text = "Endereço";
             // 
-            // label5
+            // lblSexo
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(361, 182);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 15);
-            this.label5.TabIndex = 61;
-            this.label5.Text = "Sexo";
+            this.lblSexo.AutoSize = true;
+            this.lblSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSexo.Location = new System.Drawing.Point(361, 182);
+            this.lblSexo.Name = "lblSexo";
+            this.lblSexo.Size = new System.Drawing.Size(35, 15);
+            this.lblSexo.TabIndex = 61;
+            this.lblSexo.Text = "Sexo";
             // 
-            // label4
+            // lblTelefone
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(204, 182);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 15);
-            this.label4.TabIndex = 60;
-            this.label4.Text = "Telefone";
+            this.lblTelefone.AutoSize = true;
+            this.lblTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefone.Location = new System.Drawing.Point(204, 182);
+            this.lblTelefone.Name = "lblTelefone";
+            this.lblTelefone.Size = new System.Drawing.Size(55, 15);
+            this.lblTelefone.TabIndex = 60;
+            this.lblTelefone.Text = "Telefone";
             // 
-            // label3
+            // lblCPF
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(52, 182);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 15);
-            this.label3.TabIndex = 59;
-            this.label3.Text = "CPF";
+            this.lblCPF.AutoSize = true;
+            this.lblCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCPF.Location = new System.Drawing.Point(52, 182);
+            this.lblCPF.Name = "lblCPF";
+            this.lblCPF.Size = new System.Drawing.Size(30, 15);
+            this.lblCPF.TabIndex = 59;
+            this.lblCPF.Text = "CPF";
             // 
-            // label2
+            // lblEmail
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(216, 118);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 15);
-            this.label2.TabIndex = 58;
-            this.label2.Text = "E-mail";
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Location = new System.Drawing.Point(216, 118);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(43, 15);
+            this.lblEmail.TabIndex = 58;
+            this.lblEmail.Text = "E-mail";
             // 
-            // label1
+            // lblNome
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 118);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 15);
-            this.label1.TabIndex = 57;
-            this.label1.Text = "Nome";
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(12, 118);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(41, 15);
+            this.lblNome.TabIndex = 57;
+            this.lblNome.Text = "Nome";
             // 
-            // textBox6
+            // txtEmail
             // 
-            this.textBox6.Location = new System.Drawing.Point(234, 148);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(214, 20);
-            this.textBox6.TabIndex = 55;
+            this.txtEmail.Location = new System.Drawing.Point(234, 148);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(214, 20);
+            this.txtEmail.TabIndex = 1;
             // 
-            // textBox5
+            // txtSexo
             // 
-            this.textBox5.Location = new System.Drawing.Point(371, 209);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(118, 20);
-            this.textBox5.TabIndex = 54;
+            this.txtSexo.Location = new System.Drawing.Point(371, 209);
+            this.txtSexo.Name = "txtSexo";
+            this.txtSexo.Size = new System.Drawing.Size(118, 20);
+            this.txtSexo.TabIndex = 4;
             // 
-            // textBox10
+            // txtEndereco
             // 
-            this.textBox10.Location = new System.Drawing.Point(35, 272);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(152, 20);
-            this.textBox10.TabIndex = 53;
+            this.txtEndereco.Location = new System.Drawing.Point(35, 272);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(152, 20);
+            this.txtEndereco.TabIndex = 5;
             // 
-            // textBox4
+            // txtNumero
             // 
-            this.textBox4.Location = new System.Drawing.Point(234, 272);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(152, 20);
-            this.textBox4.TabIndex = 52;
+            this.txtNumero.Location = new System.Drawing.Point(234, 272);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(152, 20);
+            this.txtNumero.TabIndex = 6;
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(26, 148);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(152, 20);
-            this.textBox1.TabIndex = 49;
+            this.txtNome.Location = new System.Drawing.Point(26, 148);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(152, 20);
+            this.txtNome.TabIndex = 0;
             // 
-            // label12
+            // lblCadastro
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(323, 68);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(84, 24);
-            this.label12.TabIndex = 71;
-            this.label12.Text = "Cadastro";
+            this.lblCadastro.AutoSize = true;
+            this.lblCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadastro.Location = new System.Drawing.Point(179, 24);
+            this.lblCadastro.Name = "lblCadastro";
+            this.lblCadastro.Size = new System.Drawing.Size(151, 24);
+            this.lblCadastro.TabIndex = 71;
+            this.lblCadastro.Text = "Cadastro usuario";
+            this.lblCadastro.Click += new System.EventHandler(this.label12_Click);
             // 
-            // maskedTextBox1
+            // mkdCPF
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(69, 209);
-            this.maskedTextBox1.Mask = "00000000/00";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(87, 20);
-            this.maskedTextBox1.TabIndex = 72;
+            this.mkdCPF.Location = new System.Drawing.Point(69, 209);
+            this.mkdCPF.Mask = "00000000/00";
+            this.mkdCPF.Name = "mkdCPF";
+            this.mkdCPF.Size = new System.Drawing.Size(87, 20);
+            this.mkdCPF.TabIndex = 2;
             // 
-            // maskedTextBox2
+            // mkdTelefone
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(219, 209);
-            this.maskedTextBox2.Mask = "(00) 00 00000-0000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(111, 20);
-            this.maskedTextBox2.TabIndex = 73;
+            this.mkdTelefone.Location = new System.Drawing.Point(219, 209);
+            this.mkdTelefone.Mask = "(00) 00 00000-0000";
+            this.mkdTelefone.Name = "mkdTelefone";
+            this.mkdTelefone.Size = new System.Drawing.Size(111, 20);
+            this.mkdTelefone.TabIndex = 3;
             // 
             // maskedTextBox3
             // 
@@ -276,7 +279,23 @@ namespace MobilityTech
             this.maskedTextBox3.Mask = "00000-000";
             this.maskedTextBox3.Name = "maskedTextBox3";
             this.maskedTextBox3.Size = new System.Drawing.Size(78, 20);
-            this.maskedTextBox3.TabIndex = 74;
+            this.maskedTextBox3.TabIndex = 7;
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Transparent;
+            this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.ForeColor = System.Drawing.Color.Black;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVoltar.Location = new System.Drawing.Point(580, 97);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(94, 36);
+            this.btnVoltar.TabIndex = 13;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             // 
             // frmEditarDados
             // 
@@ -284,32 +303,33 @@ namespace MobilityTech
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(700, 461);
+            this.ClientSize = new System.Drawing.Size(761, 448);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.mkdTelefone);
+            this.Controls.Add(this.mkdCPF);
+            this.Controls.Add(this.lblCadastro);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.lblCidade);
+            this.Controls.Add(this.txtCidade);
+            this.Controls.Add(this.txtBairro);
+            this.Controls.Add(this.lblBairro);
+            this.Controls.Add(this.lblCEP);
+            this.Controls.Add(this.lblNumero);
+            this.Controls.Add(this.lblEndereco);
+            this.Controls.Add(this.lblSexo);
+            this.Controls.Add(this.lblTelefone);
+            this.Controls.Add(this.lblCPF);
+            this.Controls.Add(this.lblEmail);
+            this.Controls.Add(this.lblNome);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtSexo);
+            this.Controls.Add(this.txtEndereco);
+            this.Controls.Add(this.txtNumero);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnCadastrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmEditarDados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -321,30 +341,31 @@ namespace MobilityTech
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.Label lblCidade;
+        private System.Windows.Forms.TextBox txtCidade;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.Label lblBairro;
+        private System.Windows.Forms.Label lblCEP;
+        private System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.Label lblEndereco;
+        private System.Windows.Forms.Label lblSexo;
+        private System.Windows.Forms.Label lblTelefone;
+        private System.Windows.Forms.Label lblCPF;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtSexo;
+        private System.Windows.Forms.TextBox txtEndereco;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.Label lblCadastro;
+        private System.Windows.Forms.MaskedTextBox mkdCPF;
+        private System.Windows.Forms.MaskedTextBox mkdTelefone;
         private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

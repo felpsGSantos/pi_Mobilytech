@@ -18,21 +18,12 @@ namespace MobilityTech
         public frmLogin()
         {
             InitializeComponent();
-            sublinhado();
+            
 
             
         }
 
-        public void sublinhado()
-        {
-            lblCadastro.Text = "Cadastre-se";
-            lblCadastro.Font = new Font(lblCadastro.Font, FontStyle.Underline);
-
-            lblEsqueceuSenha.Text = "Esqueceu a senha?";
-            lblEsqueceuSenha.Font = new Font(lblEsqueceuSenha.Font, FontStyle.Underline);
-           
-
-        }
+       
     }
 
    
