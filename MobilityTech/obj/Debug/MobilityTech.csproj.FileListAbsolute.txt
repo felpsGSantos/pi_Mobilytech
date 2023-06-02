@@ -1,0 +1,12 @@
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\bin\Debug\MobilityTech.exe.config
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\bin\Debug\MobilityTech.exe
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\bin\Debug\MobilityTech.pdb
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.csproj.AssemblyReference.cache
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.Form1.resources
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.Properties.Resources.resources
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.csproj.GenerateResource.cache
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.csproj.CoreCompileInputs.cache
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.exe
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.pdb
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.frmLogin.resources
+C:\Users\felipe\source\repos\MobilityTech\MobilityTech\obj\Debug\MobilityTech.frmEditarDados.resources
