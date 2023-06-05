@@ -16,6 +16,8 @@ namespace MobilityTech
         {
             InitializeComponent();
             formatoPerfil();
+            
+            
 
         }
 
@@ -25,11 +27,6 @@ namespace MobilityTech
             obj.AddEllipse(0, 0, pictureBox1.Width, pictureBox1.Height);
             Region rg = new Region(obj);
             pictureBox1.Region = rg;
-        }
-
-        private void frmPerfil_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
