@@ -24,9 +24,9 @@ namespace MobilityTech
         public void formatoPerfil()
         {
             System.Drawing.Drawing2D.GraphicsPath obj = new System.Drawing.Drawing2D.GraphicsPath();
-            obj.AddEllipse(0, 0, pictureBox1.Width, pictureBox1.Height);
+            obj.AddEllipse(0, 0, pcbPerfil.Width, pcbPerfil.Height);
             Region rg = new Region(obj);
-            pictureBox1.Region = rg;
+            pcbPerfil.Region = rg;
         }
     }
 }

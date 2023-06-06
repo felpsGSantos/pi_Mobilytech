@@ -36,3 +36,18 @@ C:\Users\felipe\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.c
 C:\Users\felipe\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.csproj.CoreCompileInputs.cache
 C:\Users\felipe\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.exe
 C:\Users\felipe\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.pdb
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\bin\Debug\MobilityTech.exe.config
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\bin\Debug\MobilityTech.exe
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\bin\Debug\MobilityTech.pdb
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.csproj.AssemblyReference.cache
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.Form1.resources
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.frmEditarDados.resources
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.frmLogin.resources
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.frmMenuPrincipal.resources
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.frmPerfil.resources
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.Properties.Resources.resources
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.csproj.GenerateResource.cache
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.csproj.CoreCompileInputs.cache
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.exe
+T:\Cursos Tecnicos\9900230997_TI107_T300623\Aula_Paulo\UC13 - b4ck 3nd\Alemao\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.pdb
+C:\Users\felipe.gsantos27\source\repos\pi_Mobilytech\MobilityTech\obj\Debug\MobilityTech.frmMenuPrincipal.resources
