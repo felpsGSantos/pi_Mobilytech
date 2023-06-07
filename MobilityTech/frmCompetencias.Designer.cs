@@ -1,5 +1,4 @@
-﻿
-namespace MobilityTech
+﻿namespace MobilityTech
 {
     partial class frmCompetencias
     {
